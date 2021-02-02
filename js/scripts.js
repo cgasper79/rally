@@ -2,6 +2,10 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  //cargamos coche y participación
+  $('#coche').load('coche.html');
+  $('#participa').load('participa.html');
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -52,7 +56,7 @@
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> no puede ser cargada.'
+      tError: '<a href="%url%">La imagen #%curr%</a> no puede ser cargada.'
     }
   });
 
@@ -67,7 +71,7 @@
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> no puede ser cargada.'
+      tError: '<a href="%url%">La imagen #%curr%</a> no puede ser cargada.'
     }
   });
 
