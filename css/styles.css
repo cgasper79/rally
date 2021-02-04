@@ -10124,6 +10124,17 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
+section.coche{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/coche/coche_0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 header.masthead h1 {
   font-size: 2.25rem;
 }
