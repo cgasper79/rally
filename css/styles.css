@@ -10230,6 +10230,10 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -10404,7 +10408,7 @@ header.masthead h1 {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 0px 20px 20px;
   }
 }
 .team-member {
