@@ -10347,6 +10347,13 @@ header.masthead h1 {
     padding:10px;
   }
 }
+
+@media (min-width: 360px){
+  .timeline-heading{
+    margin-left:70px;
+    padding:10px;
+  }
+}
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
