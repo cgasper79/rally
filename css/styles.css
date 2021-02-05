@@ -10148,6 +10148,7 @@ header.masthead h1 {
     padding-bottom: 0;
     background-attachment: fixed;
   }
+
   header.masthead p {
     font-size: 1.15rem;
   }
@@ -10301,8 +10302,8 @@ header.masthead h1 {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 150px;
-  height: 140px;
+  width: 140px;
+  height: 130px;
   margin-left: 0;
   text-align: center;
   color: white;
@@ -10340,9 +10341,10 @@ header.masthead h1 {
   padding:40px;
 }
 
-@media (min-width: 370px){
+@media (min-width: 375px){
   .timeline-heading{
-    margin-left:50px;
+    margin-left:60px;
+    padding:10px;
   }
 }
 .timeline .timeline-heading h4 {
