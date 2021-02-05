@@ -10118,7 +10118,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10129,11 +10129,22 @@ header.masthead {
 section.coche{
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/coche/coche_0.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-coche.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+section.regular{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-regular.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
 }
 
 
@@ -10157,6 +10168,10 @@ header.masthead h1 {
   }
   section.coche {
     background-attachment: fixed;
+  }
+
+  section.regular {
+    background-attachment:fixed;
   }
 }
 @media (min-width: 1200px) {
