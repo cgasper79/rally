@@ -10130,9 +10130,6 @@ header.masthead {
     background-attachment: fixed;
   }
 
-  section.coche{
-    background-attachment: fixed;
-  }
 }
 
 section.coche{
@@ -10143,6 +10140,12 @@ section.coche{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+@media (min-width: 992px){
+  header.masthead {
+    background-attachment: fixed;
+  }
 }
 
 header.masthead h1 {
