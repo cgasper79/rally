@@ -10125,12 +10125,6 @@ header.masthead {
   background-size: cover;
 }
 
-@media (min-width: 992px){
-  header.masthead {
-    background-attachment: fixed;
-  }
-
-}
 
 section.coche{
   padding-top: 10rem;
@@ -10142,11 +10136,6 @@ section.coche{
   background-size: cover;
 }
 
-@media (min-width: 992px){
-  header.masthead {
-    background-attachment: fixed;
-  }
-}
 
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10157,12 +10146,16 @@ header.masthead h1 {
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    background-attachment: fixed;
   }
   header.masthead p {
     font-size: 1.15rem;
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+  section.coche {
+    background-attachment: fixed;
   }
 }
 @media (min-width: 1200px) {
