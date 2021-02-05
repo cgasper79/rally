@@ -10125,6 +10125,16 @@ header.masthead {
   background-size: cover;
 }
 
+@media (min-width: 992px){
+  header.masthead {
+    background-attachment: fixed;
+  }
+
+  section.coche{
+    background-attachment: fixed;
+  }
+}
+
 section.coche{
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
