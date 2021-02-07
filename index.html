@@ -28,10 +28,11 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">¿Quienes somos?</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Nuestro equipo</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Participación</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Nuestro coche</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#regularidad">Rally regularidad</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -47,7 +48,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">¿te unes a nosotros?</p>
+                        <h4 class="text-white-75 font-weight-light mb-5">¿te unes a nosotros?</h4>
                         <a class="efecto btn btn-primary btn-xl js-scroll-trigger" href="#about">Descúbrenos</a>
                     </div>
                 </div>
@@ -60,28 +61,52 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Los rallys nuestra aficción</h2>
+                        <h2 class="text-white mt-0">Nuestro Equipo</h2>
                         <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">  
-                            Nuestro equipo participa sobretodo en la modalidad de Regularidad sobre tierra siendo el Spain Classic Raid el primer raid a nivel nacional y más largo de Europa en el cual se realizan más de 2.500 km a través de caminos de tierra y pistas a través de toda la península Ibérica, pasando por Andorra, desierto de Tabernas, Monegros y Bardenas Reales.
-                        </p>
-                        <p class="text-white-50 mb-4">
-                            En 2015 nuestro equipo participó en la primera edición siendo la primera prueba de este tipo organizada en territorio nacional.
-                            Prueba que ha sido cuna y cantera para algunos participantes de esta nueva modalidad de <a href="https://www.dakar.com/es/dakar-classic">Dakar Classic </a>estrenada en 2021.
-                        </p>
-
-                        <p class="text-white-50 mb-4">
-                            En los últimos años se ha creado el campeonato Provincial de Terra de Girona , en las que nuestro equipo ha participado en casi todas las pruebas desde su inicio en el Pirineus Classic Raid en 2017 
-                            En la temporada 2020 el campeonato pasa a llamarse <a href="https://www.classicsrentservices.com/ca/off-road-classic-cup/">Offroad Classic Cup</a> y  es donde nuestro equipo se siente más cómodo.
-
-                        </p>
-
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">¿Dónde hemos participado?</a>
+                        <h4 class="text-white mt-0">Los rallys nuestra aficción</h4>
+                        <br>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" data-toggle="modal" data-target="#aboutModal">Conócenos un poco más</a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- The Modal -->
+        <div class="modal" id="aboutModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Nuestro Equipo</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>  
+                            Nuestro equipo participa sobretodo en la modalidad de Regularidad sobre tierra siendo el Spain Classic Raid el primer raid a nivel nacional y más largo de Europa en el cual se realizan más de 2.500 km a través de caminos de tierra y pistas a través de toda la península Ibérica, pasando por Andorra, desierto de Tabernas, Monegros y Bardenas Reales.
+                        </p>
+                        <p>
+                            En 2015 nuestro equipo participó en la primera edición siendo la primera prueba de este tipo organizada en territorio nacional.
+                            Prueba que ha sido cuna y cantera para algunos participantes de esta nueva modalidad de <a href="https://www.dakar.com/es/dakar-classic">Dakar Classic </a>estrenada en 2021.
+                        </p>
+
+                        <p>
+                            En los últimos años se ha creado el campeonato Provincial de Terra de Girona , en las que nuestro equipo ha participado en casi todas las pruebas desde su inicio en el Pirineus Classic Raid en 2017 
+                            En la temporada 2020 el campeonato pasa a llamarse <a href="https://www.classicsrentservices.com/ca/off-road-classic-cup/">Offroad Classic Cup</a> y  es donde nuestro equipo se siente más cómodo.
+                        </p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+  
+                 </div>
+            </div>
+        </div>
+       
 
         <!-- Participación-->
         <section class="page-section" id="services">
@@ -121,9 +146,6 @@
                         <a class="portfolio-box" href="assets/img/coche/coche_6.jpg"></a>
                     </div>
                 </div>
-
-                
-                
                 
             </div>
         
@@ -161,7 +183,7 @@
             </div>
         </section>
 
-        <!-- The Modal -->
+        <!-- Modal regularidad -->
         <div class="modal" id="regularModal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -192,11 +214,34 @@
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
   
-      </div>
-    </div>
+                 </div>
+            </div>
         </div>
        
         
+        <!--Sponsors-->
+        <section class="page-section bg-primary" id="sponsors">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0 text-white">Sponsors</h2>
+                        <hr class="divider light my-4" />
+                        <h4 class="text-white mb-5">Estos son nuestros Sponsors</h4>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-white"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3 text-white">E-Commerce</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
 
         <!-- Contact-->
         <section class="page-section" id="contact">
@@ -225,9 +270,24 @@
        
 
         <!-- Footer-->
+
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2021 - cgasper79</div></div>
-        </footer>
+            <div class="container text-center">
+              <a class="btn" href="#"><i class="text-muted fab fa-facebook fa-3x" aria-hidden="true"></i></a>
+              <a class="btn" href="#"><i class="text-muted fab fa-instagram fa-3x " aria-hidden="true"></i></a>
+              <a class="btn" href="#"><i class="text-muted fab fa-twitter fa-3x " aria-hidden="true"></i></a>
+              <br>
+            </div>
+            <div class="h4 title text-center">Marrero Team Rally</div>
+            <div class="text-center text-muted">
+              <p>&copy; 2021. Todos los derechos reservados.<br>Design - <a class="credit" href="https://twitter.com/cgasper79" target="_blank">cgasper79</a></p>
+            </div>
+          </footer>
+
+
+
+
+
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
