@@ -1,7 +1,7 @@
 
 (function($) {
   "use strict"; // Start of use strict
-
+  
   //cargamos coche y participación
   $('#coche').load('coche.html');
   $('#participa').load('participa.html');

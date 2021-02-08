@@ -18,6 +18,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
     </head>
     <body id="page-top">
@@ -49,7 +50,7 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <h4 class="text-white-75 font-weight-light mb-5">¿te unes a nosotros?</h4>
-                        <a class="efecto btn btn-primary btn-xl js-scroll-trigger" href="#about">Descúbrenos</a>
+                        <a class="efecto btn btn-primary btn-xl js-scroll-trigger" data-aos="flip-left" href="#about">Descúbrenos</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@
                         <hr class="divider light my-4" />
                         <h4 class="text-white mt-0">Los rallys nuestra aficción</h4>
                         <br>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" data-toggle="modal" data-target="#aboutModal">Conócenos un poco más</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" data-aos="flip-left" data-aos-duration="500" data-toggle="modal" data-target="#aboutModal">Conócenos un poco más</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@
                 <br>
                 </div>
 
-                <div id="participa"></div>
+                <div id="participa" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000"></div>
                 
             </div>
         </section>
@@ -138,7 +139,7 @@
 
                     <div class="col-lg-8 align-self-baseline">
                         <h4 class="text-center text-white mb-4">VW Golf GTI 2ª generación</h4>
-                        <a class="center btn btn-primary btn-xl js-scroll-trigger" href="assets/img/coche/coche_1.jpg">Ver Fotos</a>
+                        <a class="center btn btn-primary btn-xl js-scroll-trigger" data-aos="flip-left" href="assets/img/coche/coche_1.jpg">Ver Fotos</a>
                         <a class="portfolio-box" href="assets/img/coche/coche_2.jpg"></a>   
                         <a class="portfolio-box" href="assets/img/coche/coche_3.jpg"></a>
                         <a class="portfolio-box" href="assets/img/coche/coche_4.jpg"></a>
@@ -153,7 +154,7 @@
        
         <!-- Call to action-->
         <section class="page-section">
-            <div class="container text-center">
+            <div class="container text-center" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
                 <h2 class="mb-4">2º puesto en la 
                     <p>III OFF ROAD CLASSIC CUP del 2020</p>
                 </h2>
@@ -176,7 +177,7 @@
                         <hr class="divider my-4" />
                         <h4 class="text-white">Modalidad en la que participamos</h4>
                         <br>
-                        <a class="efecto btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#regularModal" >¿En que consiste?</a>
+                        <a class="efecto btn btn-primary btn-xl js-scroll-trigger" data-aos="flip-left" data-toggle="modal" data-target="#regularModal" >¿En que consiste?</a>
                     </div>
 
                 </div>
@@ -221,7 +222,7 @@
         
         <!--Sponsors-->
         <section class="page-section bg-primary" id="sponsors">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0 text-white">Sponsors</h2>
@@ -245,7 +246,7 @@
 
         <!-- Contact-->
         <section class="page-section" id="contact">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">Contacta con nosotros</h2>
@@ -298,7 +299,10 @@
 			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
 			  crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>AOS.init();</script>
     </body>
 </html>
