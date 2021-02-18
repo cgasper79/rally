@@ -484,6 +484,19 @@ mark,
   content: "— ";
 }
 
+
+.img-logo {
+  max-width: 50%;
+  height: auto;
+}  
+
+@media (min-width: 992px) {
+  .img-logo {
+    max-width: 100%;
+    height: auto;
+  }  
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
