@@ -10069,8 +10069,9 @@ img::-moz-selection {
 }
 #mainNav {
   box-shadow: 10px 5px 20px red;
-  background-color: #fff;
+  background-color: #f8f9fa;
   transition: background-color 0.2s ease;
+  border-radius: 0px 0px 25px 25px;
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10113,7 +10114,8 @@ img::-moz-selection {
   }
   #mainNav.navbar-scrolled {
     box-shadow: 10px 5px 20px red;
-    background-color: #fff;
+    background-color: #f8f9fa;
+    border-radius: 0px 0px 25px 25px;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
@@ -10500,5 +10502,4 @@ header.masthead h1 {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
