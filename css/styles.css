@@ -10068,7 +10068,7 @@ img::-moz-selection {
   border-radius: 100%;
 }
 #mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 5px 20px red;
   background-color: #fff;
   transition: background-color 0.2s ease;
 }
@@ -10112,7 +10112,7 @@ img::-moz-selection {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 5px 20px red;
     background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
