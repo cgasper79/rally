@@ -2,6 +2,20 @@
 (function($) {
   "use strict"; // Start of use strict
   
+  //Esconder barra menu al hacer scroll abajo
+  var position = $(window).scrollTop(); 
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if(scroll > position) {
+      //$(".navbar").css("top", "-200px");
+      //console.log('scroll abajo');
+    } else {
+      //$(".navbar").css("top", "0px");
+      //console.log('scroll arriba');
+    }
+    position = scroll;
+  });
+
   //cargamos participación
   $('#participa').load('participa.html');
 
