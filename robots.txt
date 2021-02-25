@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://marreroteamrally.com/sitemaps.xml
+Sitemap: https://marreroteamrally.com/sitemap.xml
